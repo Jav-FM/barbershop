@@ -5,11 +5,23 @@
     background-position: center;
     background-size:cover;
     color: $white;
-    h1 {
+    text-align: center;
+    position: relative;
+}
+
+.header__title {
     font-family: $playfair-display;
     font-weight: $font-black-italic;
     font-size: $xx-large;
-    text-align: center;
     font-style: italic;
-    }
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    margin: auto;
+    width: 35%;
+    height: 65%;
+}
+
+.header__arrow {
+    position: absolute;
+    bottom: 30px;
 }
