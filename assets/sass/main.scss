@@ -1,12 +1,17 @@
 //abstract
 @import "abstracts/variables";
-@import "abstract/mixins";
+@import "abstracts/mixins";
 
 //vendors
-@import "vendors"
-//base
+@import "vendors/bootstrap-4.6/bootstrap";
 
-//layout
+//base
+@import "base/base";
+@import "base/reset";
+@import "base/typography";
+
+//layouts
+@import "layouts/header";
 
 //components
 
