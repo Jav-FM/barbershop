@@ -9990,8 +9990,9 @@ h3 {
   margin: auto;
 }
 
-/*Blog Entry*/
+/*Blog Entry Section*/
 .blog-entry {
+  background-color: #FFF;
   color: #222323;
   text-align: left;
 }
@@ -10013,8 +10014,83 @@ h3 {
 }
 
 .blog-entry__button {
-  border-radius: 20%;
+  border-radius: 30px 30px 30px 30px;
   margin-left: 5px;
+}
+
+/*Naomi Thai Section*/
+.naomi-thai {
+  background-color: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #E6E7E7;
+}
+
+.naomi-thai__image {
+  border-radius: 50%;
+  border: 1px solid #E6E7E7;
+  width: 178px;
+  height: auto;
+  margin-right: 40px;
+}
+
+.naomi-thai__name {
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 30px;
+  color: #121619;
+}
+
+.naomi-thai__contact {
+  width: 200px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: #D76C69;
+}
+
+.naomi-thai__info {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #222323;
+}
+
+/*Blog Navigation Section*/
+.blog-nav {
+  background-color: #E6E7E7;
+}
+
+.blog-nav__list__li a {
+  color: #121619;
+}
+.blog-nav__list__li a:hover {
+  color: #6C6E70;
+}
+.blog-nav__list__li:first-child a {
+  border-radius: 30px 0px 0px 30px !important;
+}
+.blog-nav__list__li:last-child a {
+  border-radius: 0px 30px 30px 0px !important;
+}
+
+.blog-nav__list__li--disable a {
+  color: #6C6E70;
+}
+.blog-nav__list__li--disable a:hover {
+  color: #6C6E70;
+  background-color: #FFF;
+}
+
+.blog-nav__list__li--active a {
+  color: #FFF;
+  background-color: #6C6E70;
+}
+.blog-nav__list__li--active a:hover {
+  color: #FFF;
+  background-color: #121619;
 }
 
 /*# sourceMappingURL=main.css.map */

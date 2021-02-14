@@ -1,0 +1,35 @@
+/*Naomi Thai Section*/
+.naomi-thai {
+    background-color: $white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid $platinium;
+}
+.naomi-thai__image {
+    border-radius: 50%;
+    border: 1px solid $platinium;
+    width: 178px;
+    height: auto;
+    margin-right: 40px;
+}
+.naomi-thai__name {
+    font-family: $playfair-display;
+    font-weight: $font-black-italic;
+    font-style: italic;
+    font-size: $x-large;
+    color: $eerie-black;
+}
+.naomi-thai__contact {
+    width: 200px;
+    font-family: $roboto;
+    font-weight: $font-light;
+    font-size: 20px;
+    color: $ruddy-pink;
+}
+.naomi-thai__info {
+    font-family: $roboto;
+    font-weight: $font-regular;
+    font-size: 14px;
+    color: $raisin-black;
+}

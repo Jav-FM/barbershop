@@ -1,5 +1,6 @@
-/*Blog Entry*/
+/*Blog Entry Section*/
 .blog-entry {
+    background-color: $white;
     color: $raisin-black;
     text-align: left;
 }
@@ -19,6 +20,6 @@
 }
 
 .blog-entry__button {
-    border-radius: 20%;
+    border-radius: 30px 30px 30px 30px;
     margin-left: 5px;
 }
