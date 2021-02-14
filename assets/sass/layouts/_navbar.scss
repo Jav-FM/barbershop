@@ -1,0 +1,23 @@
+/*Navbar*/
+.navbar {
+    background-color: $eerie-black;
+}
+.navbar__logo {
+    width: 79px;
+    height: auto;
+}
+.navbar__button {
+    color: $white;
+}
+.navbar__item {
+    color: white;
+    &:hover {
+        color: $fruzzy-wuzzy
+    }
+}
+.navbar__item--orange {
+    color: $ruddy-pink;
+    &:hover {
+        color: $spanish-pink;
+    }
+}

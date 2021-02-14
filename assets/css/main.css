@@ -9935,6 +9935,34 @@ h3 {
   padding: 0;
 }
 
+/*Navbar*/
+.navbar {
+  background-color: #121619;
+}
+
+.navbar__logo {
+  width: 79px;
+  height: auto;
+}
+
+.navbar__button {
+  color: #FFF;
+}
+
+.navbar__item {
+  color: white;
+}
+.navbar__item:hover {
+  color: #E56353;
+}
+
+.navbar__item--orange {
+  color: #D76C69;
+}
+.navbar__item--orange:hover {
+  color: #ECBCBA;
+}
+
 /*Header*/
 .header {
   height: 60vh;
