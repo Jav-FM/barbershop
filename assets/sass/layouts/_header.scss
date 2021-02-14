@@ -5,23 +5,22 @@
     background-position: center;
     background-size:cover;
     color: $white;
-    text-align: center;
     position: relative;
-}
-
-.header__title {
-    font-family: $playfair-display;
-    font-weight: $font-black-italic;
-    font-size: $xx-large;
-    font-style: italic;
-    position: absolute;
-    top: 0; left: 0; bottom: 0; right: 0;
-    margin: auto;
-    width: 35%;
-    height: 65%;
-}
-
-.header__arrow {
-    position: absolute;
-    bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    &__title {
+        font-family: $playfair-display;
+        font-weight: $font-black-italic;
+        font-size: $xx-large;
+        font-style: italic;
+    }
+    &__arrow {
+        position: absolute;
+        bottom: 30px; 
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
 }

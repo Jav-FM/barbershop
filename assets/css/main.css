@@ -9942,28 +9942,24 @@ h3 {
   background-position: center;
   background-size: cover;
   color: #FFF;
-  text-align: center;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
-
 .header__title {
   font-family: "Playfair Display", serif;
   font-weight: 900;
   font-size: 70px;
   font-style: italic;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  margin: auto;
-  width: 35%;
-  height: 65%;
 }
-
 .header__arrow {
   position: absolute;
   bottom: 30px;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 
 /*# sourceMappingURL=main.css.map */
