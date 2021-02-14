@@ -1,0 +1,24 @@
+/*Blog Entry*/
+.blog-entry {
+    color: $raisin-black;
+    text-align: left;
+}
+.blog-entry__date {
+    font-family: $playfair-display;
+    font-weight: $font-regular;
+    font-size: $large;
+}
+.blog-entry__content {
+    font-family: $roboto;
+    font-weight: $font-light;
+    font-size: $medium;
+}
+
+.blog-entry__content--orange {
+    color: $ruddy-pink
+}
+
+.blog-entry__button {
+    border-radius: 20%;
+    margin-left: 5px;
+}

@@ -9990,4 +9990,31 @@ h3 {
   margin: auto;
 }
 
+/*Blog Entry*/
+.blog-entry {
+  color: #222323;
+  text-align: left;
+}
+
+.blog-entry__date {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.blog-entry__content {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.blog-entry__content--orange {
+  color: #D76C69;
+}
+
+.blog-entry__button {
+  border-radius: 20%;
+  margin-left: 5px;
+}
+
 /*# sourceMappingURL=main.css.map */
