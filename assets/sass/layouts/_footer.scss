@@ -1,0 +1,12 @@
+/*Footer*/
+.footer {
+    background-color: $eerie-black;
+    height: 206px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__image {
+        width: 122px;
+        height: auto;
+    }
+}

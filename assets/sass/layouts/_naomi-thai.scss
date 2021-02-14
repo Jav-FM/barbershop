@@ -26,6 +26,12 @@
     font-weight: $font-light;
     font-size: 20px;
     color: $ruddy-pink;
+    &:hover {
+        color: $eerie-black;
+    }
+    &:active {
+        color: $ruddy-pink;
+    }
 }
 .naomi-thai__info {
     font-family: $roboto;
